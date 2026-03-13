@@ -1004,7 +1004,7 @@ plt.yticks(y_ticks)
 
 plt.figure(figsize=(8, 6))
 sns.boxplot(x="Tipo_Oponente", y="Assistencias", data=df_assistencias, palette="coolwarm")
-plt.title("Distribuição de Assistências por Tipo de Oponente", fontsize=16)
+plt.title("Distribuição de Assistências por Local de Jogo", fontsize=16)
 plt.xlabel("Tipo de Oponente", fontsize=12)
 plt.ylabel("Assistências", fontsize=12)
 
