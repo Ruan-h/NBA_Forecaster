@@ -3,6 +3,16 @@
 Este é um projeto de estudos focado no aprendizado prático de processamento de dados, probabilidade e análise estatística utilizando Python. Utilizando dados reais da NBA (focando no desempenho do Shai Gilgeous-Alexander no 1º Quarto/Q1), o objetivo principal deste repositório é aplicar conceitos teóricos de programação e matemática na prática.
 
 Para este exercício, os dados brutos foram coletados do site **StatMuse**, inseridos no script para processamento e estruturação, e exportados para um arquivo `.csv`. A partir dessa base, o código explora o cálculo de métricas estatísticas, probabilidades preditivas e a geração de visualizações gráficas de desempenho (Casa vs. Fora).
+
+## 🧠 O que eu aprendi / Etapas de Análise de Dados
+
+Este projeto foi desenvolvido com foco no aprendizado prático e me permitiu passar por todas as etapas fundamentais de um projeto real de **Análise de Dados**:
+
+1. **Coleta e Limpeza de Dados (Data Wrangling / ETL):** Aprendi a lidar com dados do mundo real, que raramente vêm prontos. Peguei dados brutos e desestruturados (texto copiado da web) e criei uma lógica em Python para limpá-los, interpretando informações (como transformar "@" e "vs" em "Away" e "Home") e estruturando tudo em um arquivo `.csv` organizado.
+2. **Manipulação de Dados:** Pratiquei o uso da biblioteca `pandas` para carregar o arquivo estruturado, isolar as colunas de interesse e criar DataFrames específicos (`df_pontos` e `df_assistencias`) para alimentar os cálculos matemáticos.
+3. **Análise Estatística (Estatística Inferencial):** Fui além das métricas descritivas básicas (como calcular apenas a média). Utilizei a biblioteca `scipy` para aplicar estatística avançada, calculando **Intervalos de Confiança** e utilizando a **Distribuição Normal** e a **Distribuição T de Student** para prever probabilidades matemáticas de desempenho futuro.
+4. **Visualização de Dados (DataViz):** Aprendi a traduzir números em insights visuais utilizando `seaborn` e `matplotlib`. Gerei gráficos técnicos (Boxplots) que facilitam a análise da dispersão dos dados e a identificação visual de padrões de comportamento do jogador dependendo do local do jogo.
+
 ## 🚀 Funcionalidades
 
 * **ETL (Extração, Transformação e Carga):** Converte dados brutos de texto em um formato tabular organizado, gerando o arquivo `nba_shai_1q_stats.csv`.
